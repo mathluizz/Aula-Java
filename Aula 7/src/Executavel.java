@@ -17,9 +17,11 @@ public class Executavel {
 
        Lutador l6 = new Lutador("Nerdaard", "EUA", 30, 1.81, 105.7, "Pesado", 12, 2, 4);
     
-       Luta luta1 = new Luta();
-       luta1.marcarLuta(l1, l2);
-       luta1.lutar();
-
+        l1.status();
+        l2.status();
+        l3.status();
+        l4.status();
+        l5.status();
+        l6.status();
     }   
 }
