@@ -1,4 +1,4 @@
-package Aula;
+package Aula9.src;
 
 public interface Publicacao {
     public void abrir();
