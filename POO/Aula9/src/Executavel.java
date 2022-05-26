@@ -1,5 +1,8 @@
-package Aula;
+package Aula9.src;
 public class Executavel {
+  public Executavel() {
+  }
+
   public static void main(String[] args){
     Pessoa[] p = new Pessoa[2];
     Livro[] l = new Livro[3];
