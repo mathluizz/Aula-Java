@@ -15,6 +15,5 @@ public class Main {
         visualizacao[1].avaliar();
         
         System.out.println(visualizacao[0].toString());
-        System.out.println(video[0].toString());
     }
 }
