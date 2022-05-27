@@ -40,7 +40,7 @@
 
     @Override
     public String toString() {
-        return "Gafanhoto [" + super.toString() + "\nlogin=" + login + ", totAssistido=" + totAssistido + "]";
+        return "[" + super.toString() + ", login=" + login + ", totAssistido=" + totAssistido + "]";
     }
     
 }

@@ -18,7 +18,7 @@ public abstract class Pessoa {
 
     @Override
     public String toString() {
-        return "Pessoa [experiencia=" + experiencia + ", idade=" + idade + ", nome=" + nome + ", sexo=" + sexo + "]";
+        return "nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + ", experiencia=" + experiencia;
     }
 
     

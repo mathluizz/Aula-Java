@@ -32,7 +32,8 @@ public class Video implements AcoesVideo{
         return avaliacao;
     }
     public void setAvaliacao(float avaliacao) {
-        this.avaliacao = avaliacao;
+        float novaAvaliacao = (this.avaliacao + avaliacao)/this.views;
+        this.avaliacao = novaAvaliacao;
     }
     public int getViews() {
         return views;
@@ -54,8 +55,8 @@ public class Video implements AcoesVideo{
     }
     @Override
     public String toString() {
-        return "Video [avaliacao=" + avaliacao + ", curtidas=" + curtidas + ", reproduzindo=" + reproduzindo
-                + ", titulo=" + titulo + ", views=" + views + "]";
+        return "[titulo=" + titulo + ", avaliacao=" + avaliacao + ", curtidas=" + curtidas + ", reproduzindo=" + reproduzindo
+                 + ", views=" + views + "]";
     }
 
     
