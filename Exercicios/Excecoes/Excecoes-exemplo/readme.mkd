@@ -1,0 +1,5 @@
+## Exemplo de soluções de códigos para melhor implementação.
+
+### Very bad solution
+### Bad solution
+### Good solution
