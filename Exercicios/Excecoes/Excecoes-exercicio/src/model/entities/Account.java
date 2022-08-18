@@ -46,9 +46,9 @@ public class Account {
     }
     public void withdraw (Double amountWd) {
         if (amountWd > withdrawLimit){
-            throw new IllegalArgumentException("The amount exceeds withdraw limit");
+            throw new IllegalArgumentException("Withdraw error: The amount exceeds withdraw limit");
         } else if (amountWd > balance) {
-            throw new IllegalArgumentException("Not enough balance");
+            throw new IllegalArgumentException("Withdraw error: Not enough balance");
         } else {
             balance -= amountWd;
             System.out.println("New balance: " + balance);
