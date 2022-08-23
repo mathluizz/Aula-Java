@@ -1,5 +1,10 @@
 ### Exercício [Map](https://docs.oracle.com/javase/10/docs/api/java/util/Map.html) de fixação
 
+Foi criado um programa que faz a contagem de votos usando o HashMap.
+
+
+
+
 
 
 #### É uma coleção de pares chave / valor
